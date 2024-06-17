@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://yulljie.github.io/CattleEatsGrass/titintro/">
+        <link rel="canonical" href="https://yulljie.github.io/CattleEatsGrass/build/">
       
       
-        <link rel="prev" href="../guide/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../diary/00-30/">
+        <link rel="next" href="../guide/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>题解 - 芜草初伸记</title>
+        <title>在本地获取本文 - 芜草初伸记</title>
       
     
     
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              题解
+              在本地获取本文
             
           </span>
         </div>
@@ -210,10 +210,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../build/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    在本地获取本文
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -222,6 +242,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      方法一：克隆本站
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      方法二：构建
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -250,19 +308,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../titintro/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -271,7 +320,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -359,6 +407,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      方法一：克隆本站
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      方法二：构建
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -372,14 +446,60 @@
                   
 
 
-<h1 id="_1">题解</h1>
-<p>芜草初伸  </p>
-<p>芜草兴于野，移圃察初伸  </p>
-<p><code>芜草</code>者，杂事也；<code>初伸</code>者，杂事伸长于此也。<br />
-<code>野</code>者，班也；<code>圃</code>者，此文也。<br />
-<code>芜草初伸</code>者，<code>卧槽畜牲</code>之谐音也。  </p>
-<p>此书常有<code>史书</code>、<code>一班史记</code>之名，然<code>芜草初伸记</code>乃其一名、亦官名也。  </p>
-<p>tianjian兄名之。</p>
+<h1 id="_1">在本地获取本文</h1>
+<h2 id="_2">方法一：克隆本站</h2>
+<pre><code>git clone https://github.com/Yulljie/CattleEatsGrass.git
+</code></pre>
+<h2 id="_3">方法二：构建</h2>
+<ol>
+<li>
+<p>安装python    </p>
+<ul>
+<li>
+<p>Arch linux：  </p>
+<pre><code>pacman -Sy python
+</code></pre>
+</li>
+<li>
+<p>Debian：  </p>
+<pre><code>apt install python
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>安装material for mkdocs  </p>
+<pre><code>pip install mkdocs-material
+</code></pre>
+</li>
+<li>
+<p>使用mkdocs创建新文档  </p>
+<pre><code>mkdocs new
+</code></pre>
+</li>
+<li>
+<p>移除文件docs/index.md  </p>
+<pre><code>rm docs/index.md
+</code></pre>
+</li>
+<li>
+<p>克隆原markdown文档仓库到docs文件夹  </p>
+<pre><code>cd docs
+git clone https://github.com/Yulljie/test.git
+</code></pre>
+</li>
+<li>
+<p>回到上层目录并创建目标文件夹  </p>
+<pre><code>cd ..
+mkdir target
+</code></pre>
+</li>
+<li>
+<p>构建文档</p>
+<pre><code>mkdocs build -t material -d target
+</code></pre>
+</li>
+</ol>
 
 
 
