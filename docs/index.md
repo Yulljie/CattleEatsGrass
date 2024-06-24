@@ -8,10 +8,13 @@
 
 ## Status
 
-    众生相/创本元月 Complete
-    众生相/创本二月 Syncing
-    侠客记/舒健玩机传 Complete
-    侠客记/巡狭居士传 Syncing
+    众生相/创本元月 Complete.
+    众生相/创本二月 Syncing...
+
+    侠客记/舒健玩机传 Complete.
+    侠客记/巡狭居士传 Syncing...
+    侠客记/七杯购彩记 Waiting...
+    侠客记/王舒健默《石钟山记》 Waiting...
 
 ## Read
 （轻触左上角菜单按钮查看目录）
